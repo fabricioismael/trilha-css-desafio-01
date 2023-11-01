@@ -1,0 +1,113 @@
+:root {
+    --primaryfont: 'Raleway', sans-serif;
+    --cor-primaria: #33A8DB;
+    --cor-fundo-botao: #252525;
+    
+}
+
+body {
+    font-family: var(--primaryfont);
+}
+
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+header .banner {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 732px;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-content h1 {
+    margin: 16px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    color: #33A8DB;
+}
+
+.banner-content p {
+    max-width: 510px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner-content button {
+    margin-top: 24px;
+    box-sizing: border-box;
+    width: 326px;
+    height: 57px;
+    padding: 19px 91px;
+    font-size: 16px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #31A8DD;
+    border: 2px solid #3BA1CD;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#course-content {
+    max-width: 792px;
+    max-height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#course-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+}
+
+#course-content .module {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 57px;
+    width: 535px;
+    height: 51px;
+    border: 1px solid var(--cor-primaria);
+    background-color: var(--cor-fundo-botao);
+    text-align: center;
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
